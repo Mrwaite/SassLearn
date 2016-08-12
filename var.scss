@@ -1,0 +1,13 @@
+$nav-color : #F90;
+
+nav {
+  $width : 100px;
+  width : $width;
+  color : $nav-color;
+}
+
+$link-color : blue;
+
+a {
+  color : $link_color;
+}
