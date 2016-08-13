@@ -1,0 +1,31 @@
+@mixin set-border-radius {
+  -webkit-border-radius : 5px;
+  -moz-border-rqadius : 5px;
+  border-radius : 5px;
+}
+
+nav {
+  background-color : blue;
+  border : 1px solid red;
+  @include set-border-radius;
+}
+
+@mixin no-bullets (
+  $hover-color : blue,
+  $li-type : none,
+  $li-image : none
+  )
+  {
+  &:hover {color : $hover-color;}
+  list-style: none;
+  li {
+    list-style-type: $li-type;
+    list-style-image: $li-image;
+    margin-left: 0px;
+  }
+}
+
+body {
+  @include no-bullets();
+}
+

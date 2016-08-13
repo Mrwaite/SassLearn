@@ -1,0 +1,13 @@
+$link-color : red;
+
+$link-color : blue !default;
+
+
+nav {
+  color : $link-color;/*我就是注释*/
+}
+
+nav {
+  @import "nest.scss";//我就是注释
+
+}

@@ -11,3 +11,19 @@ article a {
   &:hover {color : red;}
 }
 
+
+.container {
+  h1, h2, h3 {margin-bottom : 0.8em;}
+}
+
+article {
+  nav + & {margin-left : 50px;}
+}
+
+nav {
+  border : {
+    width : 1px;
+    radius : 50px;
+    color : #ccc;
+  }
+}

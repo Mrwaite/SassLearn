@@ -1,0 +1,21 @@
+
+.error {
+  border : 1px red;
+  background : #fdd;
+}
+
+.error a {
+  list-style-type: none;
+}
+
+h1.error {
+  color : red;
+}
+
+.seriousError {
+  @extend .error;
+  border-width : 3px;
+}
+.foo .bar { @extend .baz; }
+.bip .baz { a: b; }
+
