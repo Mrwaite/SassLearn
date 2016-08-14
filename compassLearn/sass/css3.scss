@@ -1,0 +1,20 @@
+@import "compass/css3";
+
+/*圆角*/
+.rounded {
+  @include border-radius(5px);
+  @include border-corner-radius(top, left, 5px);
+}
+
+
+/*透明度*/
+.opacity {
+  @include opacity(0.5);
+}
+
+
+/*行内区块*/
+
+.inline-block {
+  @include inline-block;
+}

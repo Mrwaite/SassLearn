@@ -1,0 +1,9 @@
+@import "compass/layout";
+
+.footer {
+  @include sticky-footer(54px);
+}
+
+.stretch-full {
+  @include stretch;
+}

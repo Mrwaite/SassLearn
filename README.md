@@ -1,5 +1,5 @@
 ## sass学习
-
+<div class="note info"><h2 id=""></h2></div>
 ### 使用变量 
 
 sass使用$符号来标识变量
@@ -75,7 +75,8 @@ $link-color : blue !default;
 3.3 嵌套导入
 可以这样是用sass的导入
 nav {
-    @import "nest.scss";
+    @impo
+    >rt "nest.scss";
 }
 这样nest.scss文件的内容会导入nav选择器里面，导入的nest.scss文件定义的所有变量和混合器都只会在nav作用域中生效。
 3.4原生css导入
